@@ -1,0 +1,1939 @@
+{
+  "catalogEdition": "2026-2027",
+  "verifiedDate": "2026-10-20",
+  "scope": "Current William & Mary Academic Catalog only",
+  "verification": "Live catalog read in in-app browser. web reader returned JavaScript robot checks, while browser showed Academic Catalog 2026-2027 Edition and full program/course records.",
+  "programs": [
+    {
+      "id": "data-science-minor",
+      "name": "Data Science, Minor",
+      "credential": "Minor",
+      "publishedCredits": 18,
+      "source": "https://catalog.wm.edu/programs/data-science-minor/index.html#requirementstext",
+      "groups": [
+        {
+          "id": "intro",
+          "title": "Introductory reasoning or programming",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 101"
+            ],
+            [
+              "CSCI 141"
+            ]
+          ]
+        },
+        {
+          "id": "core",
+          "title": "Required core",
+          "rule": "all",
+          "courseIds": [
+            "DATA 201",
+            "DATA 202"
+          ],
+          "credits": 6
+        },
+        {
+          "id": "methods",
+          "title": "Machine learning or AI agents",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 305"
+            ],
+            [
+              "DATA 301"
+            ]
+          ]
+        },
+        {
+          "id": "electives",
+          "title": "Approved data-focused electives",
+          "rule": "minimum_courses_and_credits",
+          "courseIds": [
+            "BIOL 325",
+            "BIOL 327",
+            "BIOL 445",
+            "BUAD 350",
+            "BUAD 351",
+            "BUAD 352",
+            "BUAD 460",
+            "BUAD 463",
+            "BUAD 466",
+            "BUAD 467",
+            "BUAD 468",
+            "BUAD 469",
+            "ECON 308",
+            "ECON 331",
+            "ECON 407",
+            "ECON 408",
+            "ECON 412",
+            "ECON 413",
+            "ECON 414",
+            "GIS 201",
+            "GIS 405",
+            "GIS 410",
+            "GIS 420",
+            "GOVT 301",
+            "GOVT 302",
+            "GOVT 307",
+            "MATH 309",
+            "MATH 323",
+            "MATH 332",
+            "MATH 351",
+            "MATH 352",
+            "MATH 353",
+            "MATH 408",
+            "MATH 417",
+            "MATH 424",
+            "MATH 451",
+            "MATH 452",
+            "MATH 455",
+            "MATH 465",
+            "PSYC 302"
+          ],
+          "credits": 6,
+          "minCourses": 2,
+          "minCredits": 6,
+          "openOptions": {
+            "subject": "DATA",
+            "levels": [
+              300,
+              400
+            ],
+            "excluded": [
+              "DATA 480",
+              "DATA 481",
+              "DATA 491"
+            ]
+          },
+          "notes": [
+            "Select two or more courses overlapping with Computation, Application, Communication and Deliberation, focused on temporal, spatial or numerical data.",
+            "Other courses require approval from the Data Science Undergraduate Curriculum Committee. Special topics from other departments also require this approval.",
+            "BUAD 351 is listed without a title or live course link in the program requirements; its course details are unresolved."
+          ]
+        }
+      ],
+      "rules": [
+        "No restriction on the primary major paired with the minor.",
+        "Normally declare by the second semester of junior year.",
+        "Two courses may count toward both primary major and minor.",
+        "Director-approved substitutions may be possible.",
+        "Published 18 hours is a nominal minimum; CSCI 141 is 4 credits and electives can vary in credit value. Prerequisites may require additional credits."
+      ],
+      "fit": {
+        "type": "curriculum_inference",
+        "summary": "Add data analysis, visualization, ethics and AI skills to another major; apply evidence to questions in an existing field."
+      }
+    },
+    {
+      "id": "artificial-intelligence-minor",
+      "name": "Artificial Intelligence, Minor",
+      "credential": "Minor",
+      "publishedCredits": 19,
+      "source": "https://catalog.wm.edu/programs/artificial-intelligence-minor/index.html#requirementstext",
+      "groups": [
+        {
+          "id": "core",
+          "title": "Required courses",
+          "rule": "all",
+          "courseIds": [
+            "CSCI 141",
+            "CSCI 243",
+            "DATA 210",
+            "DATA 301"
+          ],
+          "credits": 13
+        },
+        {
+          "id": "electives",
+          "title": "Restricted electives",
+          "rule": "choose_courses_and_minimum_credits",
+          "courseIds": [
+            "CSCI 356",
+            "CSCI 416",
+            "CSCI 420",
+            "CSCI 436",
+            "CSCI 446",
+            "CSCI 455",
+            "DATA 209",
+            "DATA 440",
+            "DATA 441",
+            "DATA 442",
+            "DATA 444",
+            "DATA 446",
+            "DATA 447",
+            "DATA 448"
+          ],
+          "credits": 6,
+          "choose": 2,
+          "minCredits": 6,
+          "notes": [
+            "For DATA 440, the listed eligible topics are Graph Learning, Trustworthy AI and Natural Language Processing, each 3 credits.",
+            "CSCI 420 topics/prerequisites vary; ensure the selected section supplies the required credit total."
+          ]
+        }
+      ],
+      "rules": [
+        "Published requirement is 19 credits. Course prerequisites can add coursework beyond these 19 credits.",
+        "In particular DATA 301 requires DATA 201 plus an accepted linear algebra course plus DATA 210 or MATH 352; DATA 201 is not in the AI minor required-course table."
+      ],
+      "fit": {
+        "type": "curriculum_inference",
+        "summary": "Add programming, logic, statistical research and machine learning foundations, then specialize through AI electives."
+      }
+    },
+    {
+      "id": "applied-artificial-intelligence",
+      "name": "Applied Artificial Intelligence (BA in Interdisciplinary Studies)",
+      "credential": "BA in Interdisciplinary Studies",
+      "publishedCredits": 30,
+      "source": "https://catalog.wm.edu/programs/applied-artificial-intelligence-ba-interdisciplinary-studies-cdsp/index.html#requirementstext",
+      "groups": [
+        {
+          "id": "core",
+          "title": "Required core",
+          "rule": "all",
+          "courseIds": [
+            "AAI 101",
+            "AAI 301",
+            "DATA 201",
+            "DATA 210",
+            "DATA 303",
+            "DATA 405"
+          ],
+          "credits": 18
+        },
+        {
+          "id": "ethics",
+          "title": "Ethics requirement",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 202"
+            ],
+            [
+              "PHIL 150"
+            ]
+          ]
+        },
+        {
+          "id": "capstone",
+          "title": "Capstone",
+          "rule": "all",
+          "courseIds": [
+            "AAI 302"
+          ],
+          "credits": 3
+        },
+        {
+          "id": "electives",
+          "title": "Applied AI electives",
+          "rule": "attribute_or_advisor_approved",
+          "courseIds": [],
+          "credits": 6,
+          "minCredits": 6,
+          "attribute": "Applied AI",
+          "notes": [
+            "Six credits carrying the Applied AI attribute, or approved courses in other disciplines identified with the student advisor. The program page does not provide a closed list."
+          ]
+        }
+      ],
+      "rules": [
+        "The official award is a BA in Interdisciplinary Studies, managed by the Department of Data Science.",
+        "At least 120 credits are needed for the overall degree. The 30 hours covers the major, not all graduation requirements.",
+        "The PHIL 150 alternative is specifically identified by the program as Philosophy of Technology (4 credits). The generic PHIL 150 course record is First-Year Seminar with variable topics; arbitrary PHIL 150 sections are not verified equivalents.",
+        "Choosing the four-credit PHIL 150 topic produces 31 credits with the listed six elective credits.",
+        "AAI 101, AAI 301 and AAI 302 have their own catalog course records even though the undergraduate subject index omits an AAI listing; do not silently replace them with DATA 101, DATA 305 or DATA 415."
+      ],
+      "fit": {
+        "type": "curriculum_inference",
+        "summary": "Use and evaluate AI tools in another field: agent design, coordinated AI workflows, research design, visualization, ethics and trustworthy AI."
+      }
+    },
+    {
+      "id": "data-science-bs",
+      "name": "Data Science (BS in Data Science)",
+      "credential": "BS in Data Science",
+      "publishedCredits": 36,
+      "source": "https://catalog.wm.edu/programs/data-science-bs-data-science/index.html#requirementstext",
+      "groups": [
+        {
+          "id": "intro",
+          "title": "Introductory reasoning or programming",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 101"
+            ],
+            [
+              "CSCI 141"
+            ]
+          ]
+        },
+        {
+          "id": "core",
+          "title": "Core courses",
+          "rule": "all",
+          "courseIds": [
+            "DATA 201",
+            "DATA 202",
+            "DATA 301",
+            "DATA 302",
+            "DATA 303"
+          ],
+          "credits": 15
+        },
+        {
+          "id": "mathematics",
+          "title": "Linear algebra and calculus",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 209"
+            ],
+            [
+              "MATH 109",
+              "MATH 111"
+            ]
+          ]
+        },
+        {
+          "id": "statistics",
+          "title": "Research design and statistics",
+          "rule": "choose_one",
+          "courseIds": [],
+          "credits": null,
+          "alternatives": [
+            [
+              "DATA 210"
+            ],
+            [
+              "MATH 352"
+            ]
+          ]
+        },
+        {
+          "id": "capstone",
+          "title": "Capstone",
+          "rule": "level_course",
+          "courseIds": [],
+          "credits": 3,
+          "minCredits": 3,
+          "subject": "DATA",
+          "level": 400,
+          "excluded": [
+            "DATA 491",
+            "DATA 495"
+          ],
+          "notes": [
+            "One 400-level DATA course fulfills the capstone.",
+            "DATA 491 and DATA 495 cannot fulfill this requirement.",
+            "For students successfully completing honors, DATA 496 may fulfill it.",
+            "Courses used for the capstone cannot also supply track credits."
+          ]
+        },
+        {
+          "id": "track",
+          "title": "Track area",
+          "rule": "choose_track",
+          "courseIds": [],
+          "credits": 9
+        }
+      ],
+      "tracks": [
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence",
+          "credits": 9,
+          "groups": [
+            {
+              "id": "track",
+              "title": "AI track electives",
+              "rule": "choose_courses_and_credits",
+              "courseIds": [
+                "AAI 301",
+                "AAI 302",
+                "DATA 405",
+                "DATA 440",
+                "DATA 441",
+                "DATA 442",
+                "DATA 446",
+                "DATA 447",
+                "DATA 448",
+                "DATA 451"
+              ],
+              "credits": 9,
+              "choose": 3,
+              "minCredits": 9
+            }
+          ],
+          "fit": {
+            "type": "catalog_description",
+            "summary": "Design, build and implement AI algorithms and models that analyze complex data, recognize patterns and predict outcomes."
+          }
+        },
+        {
+          "id": "algorithms",
+          "name": "Algorithms",
+          "credits": 9,
+          "groups": [
+            {
+              "id": "track-core",
+              "title": "Required track courses",
+              "rule": "all",
+              "courseIds": [
+                "CSCI 241",
+                "CSCI 303"
+              ],
+              "credits": 6
+            },
+            {
+              "id": "logic",
+              "title": "Discrete foundations",
+              "rule": "choose_one",
+              "courseIds": [],
+              "credits": null,
+              "alternatives": [
+                [
+                  "CSCI 243"
+                ],
+                [
+                  "MATH 214"
+                ]
+              ]
+            }
+          ],
+          "fit": {
+            "type": "catalog_description",
+            "summary": "Develop software and algorithms for ingesting or analyzing large, frequently near-real-time data sources, with depth in computational efficiency."
+          }
+        },
+        {
+          "id": "data-application",
+          "name": "Data Application",
+          "credits": 9,
+          "groups": [
+            {
+              "id": "track",
+              "title": "Data application methods",
+              "rule": "qualifying_courses",
+              "courseIds": [],
+              "credits": 9,
+              "choose": 3,
+              "minCredits": 9,
+              "subject": "DATA",
+              "numberMin": 340,
+              "excluded": [
+                "DATA 491"
+              ],
+              "notes": [
+                "Three DATA courses numbered 340 or higher with a significant component of analyzing datasets using Data Science techniques.",
+                "DATA 340 and DATA 440 may be repeated when topics differ.",
+                "DATA 491 cannot fulfill this track.",
+                "DATA 495 may count for students pursuing honors.",
+                "Eligibility is a content rule, not blanket approval of every DATA course numbered 340 or higher."
+              ]
+            }
+          ],
+          "fit": {
+            "type": "catalog_description",
+            "summary": "Build data pipelines, combine sensor and other data, make predictions and update models with real-time information."
+          }
+        },
+        {
+          "id": "spatial-data-analytics",
+          "name": "Spatial Data Analytics",
+          "credits": 9,
+          "groups": [
+            {
+              "id": "track",
+              "title": "Spatial track electives",
+              "rule": "choose_courses_and_credits",
+              "courseIds": [
+                "DATA 431",
+                "GIS 201",
+                "GIS 405",
+                "GIS 410",
+                "GIS 420"
+              ],
+              "credits": 9,
+              "choose": 3,
+              "minCredits": 9
+            }
+          ],
+          "fit": {
+            "type": "catalog_description",
+            "summary": "Analyze large-scale geospatial data, including satellite and survey information."
+          }
+        }
+      ],
+      "rules": [
+        "Select a track at major declaration; each track comprises three additional methods-oriented courses.",
+        "Track and capstone coursework must be distinct.",
+        "DATA 201 usually satisfies major computing proficiency; another course may be petitioned to the Data Science Undergraduate Committee.",
+        "DATA 202 usually satisfies major writing proficiency; another course may be petitioned to the same committee.",
+        "The published requirements table totals 36 hours. Alternatives with higher credits and prerequisite courses may increase the student total.",
+        "The DS minor overview still describes the BS as 40 credits with three tracks. The current BS requirements page explicitly publishes 36 hours and four track sections, including AI; the website should retain a visible catalog discrepancy note."
+      ],
+      "fit": {
+        "type": "curriculum_inference",
+        "summary": "Build a broad foundation in AI, data modeling, databases, visualization, statistics and ethics, then deepen through a chosen methods track."
+      }
+    }
+  ],
+  "courses": {
+    "DATA 100": {
+      "id": "DATA 100",
+      "name": "Critical Questions in Data Science",
+      "credits": 4,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20100",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 101": {
+      "id": "DATA 101",
+      "name": "Reasoning with Generative AI",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20101",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 150": {
+      "id": "DATA 150",
+      "name": "First-Year Seminar",
+      "credits": 4,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20150",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 201": {
+      "id": "DATA 201",
+      "name": "Data in the Age of AI",
+      "credits": 3,
+      "prerequisitesText": "CSCI 140 or CSCI 141 or DATA 141 or DATA 101 or AAI 101",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20201",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 202": {
+      "id": "DATA 202",
+      "name": "AI & Data Ethics",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20202",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 209": {
+      "id": "DATA 209",
+      "name": "Applied Linear Algebra & Calculus",
+      "credits": 3,
+      "prerequisitesText": "DATA 101 or CSCI 140 or CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20209",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 210": {
+      "id": "DATA 210",
+      "name": "Research Design and Statistics",
+      "credits": 3,
+      "prerequisitesText": "DATA 101 or CSCI 140 or CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20210",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 301": {
+      "id": "DATA 301",
+      "name": "Applied Machine Learning",
+      "credits": 3,
+      "prerequisitesText": "DATA 201 and (DATA 209 or MATH 211 or MATH 109) and (DATA 210 or MATH 352)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20301",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/",
+      "formerly": "DATA 310"
+    },
+    "DATA 302": {
+      "id": "DATA 302",
+      "name": "Databases",
+      "credits": 3,
+      "prerequisitesText": "DATA 201",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20302",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/",
+      "formerly": "DATA 311"
+    },
+    "DATA 303": {
+      "id": "DATA 303",
+      "name": "Data Visualization",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20303",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 305": {
+      "id": "DATA 305",
+      "name": "Designing AI Agents",
+      "credits": 3,
+      "prerequisitesText": "DATA 201",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20305",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 340": {
+      "id": "DATA 340",
+      "name": "Special Topics in Data Application",
+      "credits": 3,
+      "prerequisitesText": "To be determined by topic each term.",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20340",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/",
+      "notes": [
+        "Repeatable only with a different topic; may count for other DS tracks with instructor approval."
+      ]
+    },
+    "DATA 341": {
+      "id": "DATA 341",
+      "name": "App Time Series Analysis",
+      "credits": 3,
+      "prerequisitesText": "DATA 201",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20341",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 390": {
+      "id": "DATA 390",
+      "name": "Directed Research in Data Science",
+      "credits": "1-4",
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20390",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 405": {
+      "id": "DATA 405",
+      "name": "Trustworthy AI",
+      "credits": 3,
+      "prerequisitesText": "DATA 101 or CSCI 140 or CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20405",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 415": {
+      "id": "DATA 415",
+      "name": "Agentic Coordination",
+      "credits": 3,
+      "prerequisitesText": "DATA 305",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20415",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 431": {
+      "id": "DATA 431",
+      "name": "Spatial Data Discovery",
+      "credits": 3,
+      "prerequisitesText": "DATA 201 and GIS 201",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20431",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 440": {
+      "id": "DATA 440",
+      "name": "Special Topics",
+      "credits": "1-4",
+      "prerequisitesText": "DATA 141 or CSCI 140 or CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20440",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/",
+      "notes": [
+        "Variable 1-4 credits; choose a 3-credit eligible topic for the AI minor and ensure the needed credit total for other uses. Instructors may require prior approval."
+      ]
+    },
+    "DATA 441": {
+      "id": "DATA 441",
+      "name": "Advanced Applications of AI",
+      "credits": 3,
+      "prerequisitesText": "(DATA 301 or DATA 310) and (MATH 211 or MATH 109)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20441",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 442": {
+      "id": "DATA 442",
+      "name": "Neural Networks & Deep Learning",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20442",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 444": {
+      "id": "DATA 444",
+      "name": "Agent-Based Modeling",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20444",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 445": {
+      "id": "DATA 445",
+      "name": "Network Analysis",
+      "credits": 3,
+      "prerequisitesText": "(DATA 301 (may be taken concurrently) or DATA 310) or MATH 351",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20445",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 446": {
+      "id": "DATA 446",
+      "name": "Generative AI",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20446",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 447": {
+      "id": "DATA 447",
+      "name": "Bayesian Reasoning in Data Science",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20447",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 448": {
+      "id": "DATA 448",
+      "name": "Reinforcement Learning",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20448",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 449": {
+      "id": "DATA 449",
+      "name": "Web Science",
+      "credits": 3,
+      "prerequisitesText": "DATA 301 or DATA 310",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20449",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 451": {
+      "id": "DATA 451",
+      "name": "Artificial Intelligence Systems",
+      "credits": 3,
+      "prerequisitesText": "DATA 301",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20451",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 460": {
+      "id": "DATA 460",
+      "name": "Automation & Workflows",
+      "credits": 3,
+      "prerequisitesText": "DATA 302 and (DATA 303 or DATA 301)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20460",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 490": {
+      "id": "DATA 490",
+      "name": "Independent Research in Data Science",
+      "credits": "1-4",
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20490",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 491": {
+      "id": "DATA 491",
+      "name": "Mentored Data Science Teaching",
+      "credits": 1,
+      "prerequisitesText": "Instructor approval; A or above in the class being assisted, or otherwise approved.",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20491",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 495": {
+      "id": "DATA 495",
+      "name": "Honors - Data Science",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "catalog-typical",
+        "terms": [
+          "Fall"
+        ],
+        "text": "Students are expected, in most cases, to take DATA 495 in fall and DATA 496 in spring. This is an honors sequence expectation, not a guaranteed schedule."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20495",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 496": {
+      "id": "DATA 496",
+      "name": "Honors - Data Science",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "catalog-typical",
+        "terms": [
+          "Spring"
+        ],
+        "text": "Students are expected, in most cases, to take DATA 495 in fall and DATA 496 in spring. This is an honors sequence expectation, not a guaranteed schedule."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20496",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "DATA 498": {
+      "id": "DATA 498",
+      "name": "Internship",
+      "credits": "1-6",
+      "prerequisitesText": "Faculty approval before participation; pass/fail only.",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=DATA%20498",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/data/"
+    },
+    "AAI 101": {
+      "id": "AAI 101",
+      "name": "Reasoning with GenAI",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=AAI%20101"
+    },
+    "AAI 301": {
+      "id": "AAI 301",
+      "name": "Designing AI Agents",
+      "credits": 3,
+      "prerequisitesText": "AAI 101 or DATA 101 or CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=AAI%20301"
+    },
+    "AAI 302": {
+      "id": "AAI 302",
+      "name": "Agentic Coordination",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=AAI%20302"
+    },
+    "PHIL 150": {
+      "id": "PHIL 150",
+      "name": "First-Year Seminar",
+      "credits": 4,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=PHIL%20150",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/phil/",
+      "notes": [
+        "Applied AI program specifies the Philosophy of Technology topic, 4 credits; general course record is First-Year Seminar."
+      ]
+    },
+    "CSCI 141": {
+      "id": "CSCI 141",
+      "name": "Modern Programming Fundamentals",
+      "credits": 4,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": "CSCI 141L",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20141",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 241": {
+      "id": "CSCI 241",
+      "name": "Data Structures",
+      "credits": 3,
+      "prerequisitesText": "CSCI 141 or DATA 141 or CSCI 140 or DATA 140",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20241",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 243": {
+      "id": "CSCI 243",
+      "name": "Logic and Discrete Structures",
+      "credits": 3,
+      "prerequisitesText": "CSCI 141 or CSCI 142 or CSCI 140 or DATA 140 or DATA 141; may be taken concurrently.",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20243",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 303": {
+      "id": "CSCI 303",
+      "name": "Algorithms",
+      "credits": 3,
+      "prerequisitesText": "CSCI 241 and (CSCI 243 or MATH 214)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20303",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 356": {
+      "id": "CSCI 356",
+      "name": "Large Language Models",
+      "credits": 3,
+      "prerequisitesText": "CSCI 141",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20356",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 416": {
+      "id": "CSCI 416",
+      "name": "Fundamentals of Artificial Intelligence/Machine Learning",
+      "credits": 3,
+      "prerequisitesText": "CSCI 303 and (MATH 112 or MATH 132) and (MATH 211 or MATH 109)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20416",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 420": {
+      "id": "CSCI 420",
+      "name": "Special Topics in Computer Science",
+      "credits": "1-3",
+      "prerequisitesText": "Varies by topic; complete description and prerequisites appear in registration bulletins.",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20420",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 436": {
+      "id": "CSCI 436",
+      "name": "Data Mining",
+      "credits": 3,
+      "prerequisitesText": "CSCI 303 and (MATH 211 or MATH 109) and (MATH 212 or MATH 213)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20436",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 446": {
+      "id": "CSCI 446",
+      "name": "Neural Networks for Machine Learning",
+      "credits": 3,
+      "prerequisitesText": "(MATH 106 or MATH 351 or MATH 451) and (MATH 211 or MATH 109) and (MATH 212 or MATH 213)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20446",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "CSCI 455": {
+      "id": "CSCI 455",
+      "name": "Generative Artificial Intelligence for Software Development",
+      "credits": 3,
+      "prerequisitesText": "CSCI 301 and CSCI 416",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=CSCI%20455",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    "MATH 109": {
+      "id": "MATH 109",
+      "name": "Linear Algebra",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": "MATH 109L",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20109",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 111": {
+      "id": "MATH 111",
+      "name": "Calculus I",
+      "credits": 4,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": "Concurrent enrollment in Math 111 calculus lab required.",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20111",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 214": {
+      "id": "MATH 214",
+      "name": "Foundations of Math",
+      "credits": 3,
+      "prerequisitesText": "MATH 112 or MATH 132",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20214",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 309": {
+      "id": "MATH 309",
+      "name": "Theory of Vector Spaces",
+      "credits": 3,
+      "prerequisitesText": "(MATH 211 or MATH 210 or MATH 109) and MATH 214",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20309",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 323": {
+      "id": "MATH 323",
+      "name": "Operations Research: Deterministic Models",
+      "credits": 3,
+      "prerequisitesText": "MATH 211 or MATH 109 or MATH 210",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20323",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 332": {
+      "id": "MATH 332",
+      "name": "Graph Theory and its Applications",
+      "credits": 3,
+      "prerequisitesText": "MATH 211 or MATH 109 or MATH 210 or MATH 214",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20332",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 351": {
+      "id": "MATH 351",
+      "name": "Probability and Statistics for Scientists",
+      "credits": 3,
+      "prerequisitesText": "MATH 112 or MATH 132",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20351",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 352": {
+      "id": "MATH 352",
+      "name": "Statistical Data Analysis",
+      "credits": 3,
+      "prerequisitesText": "MATH 351 or MATH 451",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20352",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 353": {
+      "id": "MATH 353",
+      "name": "Advanced Statistical Data Analysis",
+      "credits": 3,
+      "prerequisitesText": "MATH 352",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20353",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 408": {
+      "id": "MATH 408",
+      "name": "Matrix Analysis",
+      "credits": 3,
+      "prerequisitesText": "(MATH 211 or MATH 109 or MATH 210) and MATH 214",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20408",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 417": {
+      "id": "MATH 417",
+      "name": "Vector Calculus for Scientists",
+      "credits": 3,
+      "prerequisitesText": "(MATH 211 or MATH 109 or MATH 210) and MATH 212 and MATH 302 or MATH 213",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20417",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "notes": [
+        "Prerequisite grouping preserved as written because the catalog operator grouping is ambiguous."
+      ]
+    },
+    "MATH 424": {
+      "id": "MATH 424",
+      "name": "Operations Research: Stochastic Models",
+      "credits": 3,
+      "prerequisitesText": "MATH 351 or MATH 451",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20424",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 451": {
+      "id": "MATH 451",
+      "name": "Probability",
+      "credits": 3,
+      "prerequisitesText": "(MATH 212 or MATH 213) and MATH 214 and (MATH 211 or MATH 109 or MATH 210)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20451",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 452": {
+      "id": "MATH 452",
+      "name": "Mathematical Statistics",
+      "credits": 3,
+      "prerequisitesText": "MATH 451",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20452",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 455": {
+      "id": "MATH 455",
+      "name": "Statistical Learning",
+      "credits": 3,
+      "prerequisitesText": "MATH 451",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20455",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 465": {
+      "id": "MATH 465",
+      "name": "Mathematics of Financial Economics",
+      "credits": 3,
+      "prerequisitesText": "MATH 451",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=MATH%20465",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "GIS 201": {
+      "id": "GIS 201",
+      "name": "Introduction to Geographic Information Systems and Spatial Analysis",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": "GIS 201L",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GIS%20201",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/gis/"
+    },
+    "GIS 201L": {
+      "id": "GIS 201L",
+      "name": "Introduction to GIS Lab",
+      "credits": 0,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": "GIS 201",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GIS%20201L",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/gis/"
+    },
+    "GIS 405": {
+      "id": "GIS 405",
+      "name": "Geovisualization & Cartographic Design",
+      "credits": 3,
+      "prerequisitesText": "GIS 201 or INTR 204 or BIOL 445 or CONS 210",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GIS%20405",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/gis/"
+    },
+    "GIS 410": {
+      "id": "GIS 410",
+      "name": "Introduction to Remotely Sensed Imagery and Analysis",
+      "credits": 3,
+      "prerequisitesText": "CONS 210 or GIS 201 or BIOL 445",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GIS%20410",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/gis/"
+    },
+    "GIS 420": {
+      "id": "GIS 420",
+      "name": "Advanced GIS Analysis & Programming",
+      "credits": 3,
+      "prerequisitesText": "GIS 405 or GIS 410",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GIS%20420",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/gis/"
+    },
+    "BIOL 325": {
+      "id": "BIOL 325",
+      "name": "Introduction to Quantitative Biology",
+      "credits": 4,
+      "prerequisitesText": "BIOL 204 and BIOL 203 and (MATH 111 or MATH 131)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BIOL%20325",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/biol/"
+    },
+    "BIOL 327": {
+      "id": "BIOL 327",
+      "name": "Intro to Biostatistics",
+      "credits": "3-4",
+      "prerequisitesText": "(BIOL 203 or BIOL 225) and (BIOL 204 or BIOL 220) and (MATH 111 or MATH 131)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BIOL%20327",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/biol/"
+    },
+    "BIOL 445": {
+      "id": "BIOL 445",
+      "name": "GIS for Biologists",
+      "credits": 3,
+      "prerequisitesText": "(BIOL 204 or BIOL 220) and (BIOL 203 or BIOL 225)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BIOL%20445",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/biol/"
+    },
+    "ECON 308": {
+      "id": "ECON 308",
+      "name": "Econometrics",
+      "credits": 3,
+      "prerequisitesText": "(ECON 307) or (MATH 106 or MATH 351 or SOCL 353 or BUAD 231) and ECON 101 and ECON 102",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20308",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/",
+      "notes": [
+        "Prerequisite grouping preserved as written; advisor should resolve interpretation."
+      ]
+    },
+    "ECON 331": {
+      "id": "ECON 331",
+      "name": "Intro Mathematical Economics",
+      "credits": 3,
+      "prerequisitesText": "ECON 101 and ECON 102",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20331",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 407": {
+      "id": "ECON 407",
+      "name": "Cross Section Econometrics",
+      "credits": 3,
+      "prerequisitesText": "ECON 308",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20407",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 408": {
+      "id": "ECON 408",
+      "name": "Time Series Econometrics",
+      "credits": 3,
+      "prerequisitesText": "ECON 308",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20408",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 412": {
+      "id": "ECON 412",
+      "name": "Empirical Microeconomics",
+      "credits": 3,
+      "prerequisitesText": "ECON 308",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20412",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 413": {
+      "id": "ECON 413",
+      "name": "Applied Macroeconomics",
+      "credits": 3,
+      "prerequisitesText": "ECON 303 and ECON 304 and (MATH 108 or MATH 111 or MATH 131)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20413",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 414": {
+      "id": "ECON 414",
+      "name": "Bayesian Econometrics",
+      "credits": 3,
+      "prerequisitesText": "ECON 308",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=ECON%20414",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "GOVT 301": {
+      "id": "GOVT 301",
+      "name": "Research Methods",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GOVT%20301",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/govt/"
+    },
+    "GOVT 302": {
+      "id": "GOVT 302",
+      "name": "Quantitative Methods",
+      "credits": 3,
+      "prerequisitesText": "GOVT 301 or GOVT 307",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GOVT%20302",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/govt/"
+    },
+    "GOVT 307": {
+      "id": "GOVT 307",
+      "name": "Political Polling and Survey Analysis",
+      "credits": 3,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=GOVT%20307",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/govt/"
+    },
+    "PSYC 302": {
+      "id": "PSYC 302",
+      "name": "Research Methods/Psy",
+      "credits": 4,
+      "prerequisitesText": "PSYC 201 and PSYC 202 and PSYC 301",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=PSYC%20302",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/psyc/"
+    },
+    "BUAD 350": {
+      "id": "BUAD 350",
+      "name": "Business Analytics",
+      "credits": 3,
+      "prerequisitesText": "(BUAD 231L (may be concurrent) or BUAD 330 (may be concurrent)) and BUAD 231",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": "BUAD 300, BUAD 311, BUAD 323, BUAD 330",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20350",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 351": {
+      "id": "BUAD 351",
+      "name": "Catalog-listed elective; title unavailable",
+      "credits": null,
+      "prerequisitesText": null,
+      "prerequisiteStatus": "not-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/programs/data-science-minor/index.html#requirementstext",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/",
+      "status": "unresolved-catalog-entry",
+      "notes": [
+        "The DS minor requirement table lists BUAD 351 without a title or course link. No BUAD 351 record appeared in the undergraduate BUAD listing during verification."
+      ]
+    },
+    "BUAD 352": {
+      "id": "BUAD 352",
+      "name": "Decision-making through Visualization & Simulation",
+      "credits": 1.5,
+      "prerequisitesText": "BUAD 350 and BUAD 330",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": "BUAD 351",
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20352",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 460": {
+      "id": "BUAD 460",
+      "name": "Big Data Analytics with Machine Learning",
+      "credits": 3,
+      "prerequisitesText": "BUAD 467",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20460",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 463": {
+      "id": "BUAD 463",
+      "name": "Supply Chain Analytics",
+      "credits": 3,
+      "prerequisitesText": "(BUAD 231 and BUAD 231L) or MATH 106 or MATH 351 or PSYC 301 or ECON 307 or SOCL 353",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20463",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 466": {
+      "id": "BUAD 466",
+      "name": "Developing Business Intelligence",
+      "credits": 3,
+      "prerequisitesText": "BUAD 350",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20466",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 467": {
+      "id": "BUAD 467",
+      "name": "Predictive Analytics",
+      "credits": 3,
+      "prerequisitesText": "(BUAD 231 and BUAD 231L) or (ECON 307 or MATH 351 or KINE 394 or PSYC 301 or SOCL 353)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20467",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 468": {
+      "id": "BUAD 468",
+      "name": "Prescriptive Analytics",
+      "credits": 3,
+      "prerequisitesText": "BUAD 350",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20468",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 469": {
+      "id": "BUAD 469",
+      "name": "Advanced Modeling Techniques",
+      "credits": 3,
+      "prerequisitesText": "(BUAD 231 and BUAD 231L) or (ECON 307 or MATH 351 or PSYC 301 or SOCL 353)",
+      "prerequisiteStatus": "catalog-stated",
+      "corequisitesText": null,
+      "offering": {
+        "status": "not-stated",
+        "terms": [],
+        "text": "Common offering seasons are not stated in the current catalog course entry."
+      },
+      "source": "https://catalog.wm.edu/search/?P=BUAD%20469",
+      "subjectSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    }
+  },
+  "sourcePolicy": {
+    "facts": "All curricular facts come from catalog.wm.edu.",
+    "careerMatching": "Career-fit text is curriculum inference or a paraphrase of the catalog track description; no employment or outcome claims.",
+    "offerings": "The current catalog does not provide common offering seasons for most courses. Leave those unknown. Fall 2025 fee-eligibility text must never be interpreted as a fall-only course offering.",
+    "credits": "Published program hours are not the same as a four-year degree total; prerequisite and higher-credit alternatives can add credits."
+  },
+  "catalogIssues": [
+    {
+      "id": "stale-ds-minor-overview",
+      "severity": "advising-note",
+      "text": "DS minor overview says DS BS minimum 40 hours and three tracks. Current DS BS requirements say 36 hours and explicitly list four tracks, including Artificial Intelligence. Use the direct BS requirements while disclosing the discrepancy.",
+      "sources": [
+        "https://catalog.wm.edu/programs/data-science-minor/index.html#requirementstext",
+        "https://catalog.wm.edu/programs/data-science-bs-data-science/index.html#requirementstext"
+      ]
+    },
+    {
+      "id": "aai-data-prefixes",
+      "severity": "advising-note",
+      "text": "AAI major and DS AI track name AAI 101/301/302. DATA list separately names DATA 101/305/415. They are not interchangeable unless formally approved; AAI 301 and DATA 305 have different stated prerequisites.",
+      "sources": [
+        "https://catalog.wm.edu/programs/applied-artificial-intelligence-ba-interdisciplinary-studies-cdsp/index.html#requirementstext",
+        "https://catalog.wm.edu/undergraduate/courses/data/",
+        "https://catalog.wm.edu/search/?P=AAI%20301"
+      ]
+    },
+    {
+      "id": "ai-minor-extra-prerequisites",
+      "severity": "advising-note",
+      "text": "AI minor nominal 19 credits omits DATA 201, which is required to enroll in DATA 301. A linear algebra course is also a DATA 301 prerequisite; DATA 209 is only an elective in the minor. Show prerequisite coursework separately.",
+      "sources": [
+        "https://catalog.wm.edu/programs/artificial-intelligence-minor/index.html#requirementstext",
+        "https://catalog.wm.edu/undergraduate/courses/data/"
+      ]
+    },
+    {
+      "id": "phil150-topic",
+      "severity": "advising-note",
+      "text": "AAI major specifies PHIL 150 Philosophy of Technology (4); generic catalog record is First-Year Seminar. Topic and approval need confirmation.",
+      "sources": [
+        "https://catalog.wm.edu/programs/applied-artificial-intelligence-ba-interdisciplinary-studies-cdsp/index.html#requirementstext",
+        "https://catalog.wm.edu/search/?P=PHIL%20150"
+      ]
+    },
+    {
+      "id": "buad351-missing",
+      "severity": "advising-note",
+      "text": "DS minor lists BUAD 351 without title/link, and no BUAD 351 record is in undergraduate BUAD catalog.",
+      "sources": [
+        "https://catalog.wm.edu/programs/data-science-minor/index.html#requirementstext",
+        "https://catalog.wm.edu/undergraduate/courses/buad/"
+      ]
+    }
+  ]
+}

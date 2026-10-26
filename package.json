@@ -1,0 +1,1 @@
+{"name":"wm-cdsp-major-explorer","version":"1.0.0","private":true,"description":"Static William & Mary major exploration tool","scripts":{"test":"node --test tests/*.test.js","preview":"python3 -m http.server 5173 --bind 127.0.0.1 --directory docs"},"devDependencies":{"jsdom":"26.1.0"}}

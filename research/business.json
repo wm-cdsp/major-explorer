@@ -1,0 +1,2595 @@
+{
+  "catalog": "2026–2027",
+  "verified": "2026-10-20",
+  "scope": "Requested Business School Business Analytics undergraduate pathway; includes both published BBA variants.",
+  "programs": [
+    {
+      "id": "business-analytics-data-science",
+      "title": "Business Analytics with Data Science",
+      "degree": "BBA in Business Administration",
+      "kind": "major",
+      "school": "Raymond A. Mason School of Business",
+      "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+      "majorCredits": 18,
+      "coreCredits": 29,
+      "creditsLabel": "29-credit core + 18-credit major table; catalog prose conflicts",
+      "degreeMinimumCredits": 120,
+      "rules": [
+        "Bachelor of Business Administration (BBA), not Bachelor of Science.",
+        "The 2026–27 curriculum is intended for students matriculating in Fall 2026 or later; earlier students should consult their matriculation-year catalog.",
+        "Apply for Business School admission, including for a secondary business major. Admission is competitive.",
+        "Before entry: at least 39 earned credits, prerequisite subjects, and at least 2.50 GPA at application and matriculation.",
+        "For current W&M students, Business Statistics plus lab and Principles of Accounting must be completed at W&M; transfer credit is not accepted for these admission requirements.",
+        "Applications due February 1 for fall admission and September 15 for spring admission; separate transfer process.",
+        "Core study usually begins spring of sophomore year or fall of junior year; first semester is a cohort-based Integrated Foundation Semester including analytics, finance and marketing.",
+        "For graduation: at least 120 total credits, at least 60 credits outside Mason academic subjects, general education and proficiency requirements, and all core/major requirements.",
+        "All BBA students must complete ECON 102 before graduation (explicit on the Data Science BBA page).",
+        "Maintain at least 2.0 overall and business-course GPA. Business courses cannot be audited; pass/fail only when the course description specifies it.",
+        "Optional second-business-area concentrations are not required, and course availability is not guaranteed.",
+        "Only one declared major may be in business; at most eight credits may be shared by two majors under the current program text."
+      ],
+      "groups": [
+        {
+          "title": "Before Business School admission",
+          "rule": "Complete the named admission subjects before entry: microeconomics, introductory calculus, business statistics plus lab, essentials of business, principles of accounting. The catalog directs exact equivalencies to Mason. BUAD courses below also appear in the core; do not count twice.",
+          "courses": [
+            {
+              "code": "BUAD 200",
+              "title": "Essentials of Business",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 203",
+              "title": "Principles of Accounting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231",
+              "title": "Business Statistics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231L",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231L",
+              "title": "Statistics Laboratory",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "ECON 101",
+              "title": "Principles: Microeconomics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/econ/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": null
+        },
+        {
+          "title": "Introductory calculus admission prerequisite",
+          "rule": "The admission text requires introductory calculus but does not certify particular course equivalents. These are the catalog’s introductory calculus courses; confirm accepted equivalencies with Mason.",
+          "courses": [
+            {
+              "code": "MATH 108",
+              "title": "Brief Calculus with Applications",
+              "credits": 4,
+              "prerequisites": "Algebra proficiency",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "MATH 111",
+              "title": "Calculus I",
+              "credits": 4,
+              "prerequisites": "Graphing calculator required",
+              "corequisites": "Concurrent calculus lab",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "MATH 131",
+              "title": "Calculus I for Life Sciences",
+              "credits": 4,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 4,
+          "selectionType": "confirm-equivalency",
+          "choose": 1
+        },
+        {
+          "title": "Business core",
+          "rule": "Complete every course. Courses already used for admission also satisfy the corresponding core requirement.",
+          "courses": [
+            {
+              "code": "BUAD 200",
+              "title": "Essentials of Business",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 203",
+              "title": "Principles of Accounting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231",
+              "title": "Business Statistics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231L",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231L",
+              "title": "Statistics Laboratory",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 311",
+              "title": "Principles of Marketing",
+              "credits": 3,
+              "prerequisites": "ECON 101",
+              "corequisites": "BUAD 300, BUAD 323, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 317",
+              "title": "Organizational Behavior & Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 323",
+              "title": "Financial Management",
+              "credits": 3,
+              "prerequisites": "BUAD 203 and (BUAD 231 or KINE 394 or MATH 351 or ECON 307 or PSYC 301 or SOCL 353)",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 330",
+              "title": "Computer Skills for Business",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 350",
+              "title": "Business Analytics",
+              "credits": 3,
+              "prerequisites": "BUAD 231 and (BUAD 231L or BUAD 330); the latter two may be taken concurrently",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 330",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 357",
+              "title": "Operations Management",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 414",
+              "title": "Global Strategic Management",
+              "credits": 3,
+              "prerequisites": "BUAD 311 and BUAD 323 and BUAD 350 and BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 29,
+          "selectionType": "all"
+        },
+        {
+          "title": "Major requirements",
+          "rule": "Complete every course.",
+          "courses": [
+            {
+              "code": "BUAD 466",
+              "title": "Developing Business Intelligence",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 467",
+              "title": "Predictive Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or KINE 394 or PSYC 301 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 468",
+              "title": "Prescriptive Analytics",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 9,
+          "selectionType": "all"
+        },
+        {
+          "title": "Major electives",
+          "rule": "Choose 3 courses for 9 credits. BUAD 492 must be in Business Analytics & Data Science topics.",
+          "courses": [
+            {
+              "code": "BUAD 460",
+              "title": "Big Data Analytics with Machine Learning",
+              "credits": 3,
+              "prerequisites": "BUAD 467",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 461",
+              "title": "Lean Six Sigma Process Improvement",
+              "credits": 3,
+              "prerequisites": "BUAD 231 and BUAD 23L [catalog text; lab code appears mistyped]",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 462",
+              "title": "Healthcare Informatics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 463",
+              "title": "Supply Chain Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or MATH 106 or MATH 351 or PSYC 301 or ECON 307 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 465",
+              "title": "Supply Chain Management",
+              "credits": 3,
+              "prerequisites": "Junior standing",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 469",
+              "title": "Advanced Modeling Techniques",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or PSYC 301 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 482",
+              "title": "Project Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 492",
+              "title": "Special Topics",
+              "credits": "0–4",
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 9,
+          "selectionType": "choose",
+          "choose": 3
+        },
+        {
+          "title": "Additional BBA degree requirement",
+          "rule": "Complete ECON 102 before graduation.",
+          "courses": [
+            {
+              "code": "ECON 102",
+              "title": "Principles: Macroeconomics",
+              "credits": 3,
+              "prerequisites": "ECON 101",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/econ/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 3,
+          "selectionType": "all"
+        },
+        {
+          "title": "Integrated Foundation Semester corequisites",
+          "rule": "The course descriptions require BUAD 300 with BUAD 311/323/330/350. BUAD 300 is absent from the published core table. BUAD 330 is listed in the Data Science core.",
+          "courses": [
+            {
+              "code": "BUAD 300",
+              "title": "Business Perspectives & Applications",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 311, BUAD 323, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+            }
+          ],
+          "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+          "credits": 1,
+          "selectionType": "corequisite"
+        }
+      ],
+      "optionalConcentrations": [
+        {
+          "id": "accounting",
+          "title": "Accounting",
+          "rule": "BUAD 301 plus three additional courses; table total 12 credits. Prose instead says 6 credits; confirm with Mason.",
+          "courses": [
+            {
+              "code": "BUAD 301",
+              "title": "Financial Reporting & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 302",
+              "title": "Advanced Financial Reporting & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 301",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 303",
+              "title": "Strategic Cost Management",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 304",
+              "title": "Not-for-Profit Accounting, Control & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 305",
+              "title": "Accounting Information Systems",
+              "credits": 3,
+              "prerequisites": "None stated; access to a PC required",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 404",
+              "title": "Auditing & Internal Controls",
+              "credits": 3,
+              "prerequisites": "BUAD 301",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 405",
+              "title": "Federal Taxation",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 12
+        },
+        {
+          "id": "consulting",
+          "title": "Consulting",
+          "rule": "Choose two courses; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 431",
+              "title": "Management Consulting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 437",
+              "title": "Change Management & Organizational Transformation",
+              "credits": 3,
+              "prerequisites": "BUAD 317 (may be taken concurrently)",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 466",
+              "title": "Developing Business Intelligence",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 482",
+              "title": "Project Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "finance",
+          "title": "Finance",
+          "rule": "Choose two; 6 credits. Include BUAD 327 or BUAD 329 or both.",
+          "courses": [
+            {
+              "code": "BUAD 327",
+              "title": "Investments",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 329",
+              "title": "Corporate Valuation & Credit Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 417",
+              "title": "International Finance",
+              "credits": 3,
+              "prerequisites": "ECON 102 and BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 419",
+              "title": "Valuation",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 420",
+              "title": "Financial History",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 421",
+              "title": "Student Managed Investment Fund",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 422",
+              "title": "Applied Financial Concepts",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 329; Distinguish program application required",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 423",
+              "title": "Corporate Financial Strategy",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 424",
+              "title": "Derivatives & Risk Management",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 327",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 427",
+              "title": "Advanced Investments",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 327",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 428",
+              "title": "Behavioral Economics & Finance",
+              "credits": 3,
+              "prerequisites": "ECON 101 and BUAD 231",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "innovation-entrepreneurship",
+          "title": "Innovation & Entrepreneurship",
+          "rule": "BUAD 340 plus two from BUAD 443, 451, 453, 457; 9 credits",
+          "courses": [
+            {
+              "code": "BUAD 340",
+              "title": "Introduction to Innovation & Entrepreneurship",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 443",
+              "title": "Entrepreneurial Ventures",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 451",
+              "title": "Customer Insights for Innovation",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or BUAD 340",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 457",
+              "title": "Creative Problem-Solving",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 9
+        },
+        {
+          "id": "management-leadership",
+          "title": "Management & Organizational Leadership",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 430",
+              "title": "Talent Strategy & Workforce Policy",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 433",
+              "title": "Organizational Reckoning & Change",
+              "credits": "1–3",
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 435",
+              "title": "Teams: Design, Selection, & Development",
+              "credits": 3,
+              "prerequisites": "BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 437",
+              "title": "Change Management & Organizational Transformation",
+              "credits": 3,
+              "prerequisites": "BUAD 317 (may be taken concurrently)",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 438",
+              "title": "Leadership",
+              "credits": 3,
+              "prerequisites": "BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "marketing",
+          "title": "Marketing",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 445",
+              "title": "Product & Brand Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 446",
+              "title": "Consumer Behavior",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or PSYC 201 or PSYC 202",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 447",
+              "title": "Customer Experience Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 448",
+              "title": "Marketing Strategy",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 450",
+              "title": "Global Marketing",
+              "credits": 3,
+              "prerequisites": "BUAD 311 and ECON 102",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 451",
+              "title": "Customer Insights for Innovation",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or BUAD 340",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 452",
+              "title": "Marketing Research",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 456",
+              "title": "Advertising & Digital Marketing",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "sustainability",
+          "title": "Sustainability",
+          "rule": "Complete both; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "ENSP 101",
+              "title": "Introduction to Environment and Sustainability",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/ensp/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "supply-chain-analytics",
+          "title": "Supply Chain Analytics",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 461",
+              "title": "Lean Six Sigma Process Improvement",
+              "credits": 3,
+              "prerequisites": "BUAD 231 and BUAD 23L [catalog text; lab code appears mistyped]",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 463",
+              "title": "Supply Chain Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or MATH 106 or MATH 351 or PSYC 301 or ECON 307 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 465",
+              "title": "Supply Chain Management",
+              "credits": 3,
+              "prerequisites": "Junior standing",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 6
+        }
+      ],
+      "careerFit": {
+        "label": "Editorial match inferred from required curriculum; not a catalog career guarantee.",
+        "examples": [
+          "Business intelligence analyst",
+          "Business analytics consultant",
+          "Predictive analytics analyst"
+        ]
+      }
+    },
+    {
+      "id": "business-analytics-supply-chain",
+      "title": "Business Analytics with Supply Chain",
+      "degree": "BBA in Business Administration",
+      "kind": "major",
+      "school": "Raymond A. Mason School of Business",
+      "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+      "majorCredits": 12,
+      "coreCredits": 28,
+      "creditsLabel": "28-credit core + 12-credit major",
+      "degreeMinimumCredits": 120,
+      "rules": [
+        "Bachelor of Business Administration (BBA), not Bachelor of Science.",
+        "The 2026–27 curriculum is intended for students matriculating in Fall 2026 or later; earlier students should consult their matriculation-year catalog.",
+        "Apply for Business School admission, including for a secondary business major. Admission is competitive.",
+        "Before entry: at least 39 earned credits, prerequisite subjects, and at least 2.50 GPA at application and matriculation.",
+        "For current W&M students, Business Statistics plus lab and Principles of Accounting must be completed at W&M; transfer credit is not accepted for these admission requirements.",
+        "Applications due February 1 for fall admission and September 15 for spring admission; separate transfer process.",
+        "Core study usually begins spring of sophomore year or fall of junior year; first semester is a cohort-based Integrated Foundation Semester including analytics, finance and marketing.",
+        "For graduation: at least 120 total credits, at least 60 credits outside Mason academic subjects, general education and proficiency requirements, and all core/major requirements.",
+        "All BBA students must complete ECON 102 before graduation (explicit on the Data Science BBA page).",
+        "Maintain at least 2.0 overall and business-course GPA. Business courses cannot be audited; pass/fail only when the course description specifies it.",
+        "Optional second-business-area concentrations are not required, and course availability is not guaranteed.",
+        "Only one declared major may be in business; at most eight credits may be shared by two majors under the current program text."
+      ],
+      "groups": [
+        {
+          "title": "Before Business School admission",
+          "rule": "Complete the named admission subjects before entry: microeconomics, introductory calculus, business statistics plus lab, essentials of business, principles of accounting. The catalog directs exact equivalencies to Mason. BUAD courses below also appear in the core; do not count twice.",
+          "courses": [
+            {
+              "code": "BUAD 200",
+              "title": "Essentials of Business",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 203",
+              "title": "Principles of Accounting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231",
+              "title": "Business Statistics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231L",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231L",
+              "title": "Statistics Laboratory",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "ECON 101",
+              "title": "Principles: Microeconomics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/econ/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": null
+        },
+        {
+          "title": "Introductory calculus admission prerequisite",
+          "rule": "The admission text requires introductory calculus but does not certify particular course equivalents. These are the catalog’s introductory calculus courses; confirm accepted equivalencies with Mason.",
+          "courses": [
+            {
+              "code": "MATH 108",
+              "title": "Brief Calculus with Applications",
+              "credits": 4,
+              "prerequisites": "Algebra proficiency",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "MATH 111",
+              "title": "Calculus I",
+              "credits": 4,
+              "prerequisites": "Graphing calculator required",
+              "corequisites": "Concurrent calculus lab",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            },
+            {
+              "code": "MATH 131",
+              "title": "Calculus I for Life Sciences",
+              "credits": 4,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 4,
+          "selectionType": "confirm-equivalency",
+          "choose": 1
+        },
+        {
+          "title": "Business core",
+          "rule": "Complete every course. Courses already used for admission also satisfy the corresponding core requirement.",
+          "courses": [
+            {
+              "code": "BUAD 200",
+              "title": "Essentials of Business",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 203",
+              "title": "Principles of Accounting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231",
+              "title": "Business Statistics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231L",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 231L",
+              "title": "Statistics Laboratory",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 231",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 311",
+              "title": "Principles of Marketing",
+              "credits": 3,
+              "prerequisites": "ECON 101",
+              "corequisites": "BUAD 300, BUAD 323, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 317",
+              "title": "Organizational Behavior & Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 323",
+              "title": "Financial Management",
+              "credits": 3,
+              "prerequisites": "BUAD 203 and (BUAD 231 or KINE 394 or MATH 351 or ECON 307 or PSYC 301 or SOCL 353)",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 350",
+              "title": "Business Analytics",
+              "credits": 3,
+              "prerequisites": "BUAD 231 and (BUAD 231L or BUAD 330); the latter two may be taken concurrently",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 330",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 357",
+              "title": "Operations Management",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 414",
+              "title": "Global Strategic Management",
+              "credits": 3,
+              "prerequisites": "BUAD 311 and BUAD 323 and BUAD 350 and BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 28,
+          "selectionType": "all"
+        },
+        {
+          "title": "Major requirements",
+          "rule": "Complete every course.",
+          "courses": [
+            {
+              "code": "BUAD 461",
+              "title": "Lean Six Sigma Process Improvement",
+              "credits": 3,
+              "prerequisites": "BUAD 231 and BUAD 23L [catalog text; lab code appears mistyped]",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 463",
+              "title": "Supply Chain Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or MATH 106 or MATH 351 or PSYC 301 or ECON 307 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 465",
+              "title": "Supply Chain Management",
+              "credits": 3,
+              "prerequisites": "Junior standing",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 9,
+          "selectionType": "all"
+        },
+        {
+          "title": "Major electives",
+          "rule": "Choose 1 course for 3 credits. BUAD 492 must be in Business Analytics & Supply Chain topics.",
+          "courses": [
+            {
+              "code": "BUAD 460",
+              "title": "Big Data Analytics with Machine Learning",
+              "credits": 3,
+              "prerequisites": "BUAD 467",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 462",
+              "title": "Healthcare Informatics",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 466",
+              "title": "Developing Business Intelligence",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 467",
+              "title": "Predictive Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or KINE 394 or PSYC 301 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 468",
+              "title": "Prescriptive Analytics",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 469",
+              "title": "Advanced Modeling Techniques",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or PSYC 301 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 474",
+              "title": "Applied Game Theory",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 482",
+              "title": "Project Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 492",
+              "title": "Special Topics",
+              "credits": "0–4",
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 3,
+          "selectionType": "choose",
+          "choose": 1
+        },
+        {
+          "title": "Additional BBA degree requirement",
+          "rule": "Complete ECON 102 before graduation.",
+          "courses": [
+            {
+              "code": "ECON 102",
+              "title": "Principles: Macroeconomics",
+              "credits": 3,
+              "prerequisites": "ECON 101",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/econ/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+          "credits": 3,
+          "selectionType": "all"
+        },
+        {
+          "title": "Integrated Foundation Semester corequisites",
+          "rule": "The course descriptions require BUAD 300 with BUAD 311/323/330/350. BUAD 300 is absent from the published core table. BUAD 330 is required by the corequisite rules but absent from the Supply Chain core table. Confirm the final credit plan with Mason.",
+          "courses": [
+            {
+              "code": "BUAD 300",
+              "title": "Business Perspectives & Applications",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 311, BUAD 323, BUAD 330, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+            },
+            {
+              "code": "BUAD 330",
+              "title": "Computer Skills for Business",
+              "credits": 1,
+              "prerequisites": "None stated",
+              "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 350",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/undergraduate/courses/buad/"
+            }
+          ],
+          "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+          "credits": 2,
+          "selectionType": "corequisite"
+        }
+      ],
+      "optionalConcentrations": [
+        {
+          "id": "accounting",
+          "title": "Accounting",
+          "rule": "BUAD 301 plus one additional course; 6 credits.",
+          "courses": [
+            {
+              "code": "BUAD 301",
+              "title": "Financial Reporting & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 302",
+              "title": "Advanced Financial Reporting & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 301",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 303",
+              "title": "Strategic Cost Management",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 304",
+              "title": "Not-for-Profit Accounting, Control & Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 305",
+              "title": "Accounting Information Systems",
+              "credits": 3,
+              "prerequisites": "None stated; access to a PC required",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 404",
+              "title": "Auditing & Internal Controls",
+              "credits": 3,
+              "prerequisites": "BUAD 301",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 405",
+              "title": "Federal Taxation",
+              "credits": 3,
+              "prerequisites": "BUAD 203",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "consulting",
+          "title": "Consulting",
+          "rule": "Choose two courses; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 431",
+              "title": "Management Consulting",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 437",
+              "title": "Change Management & Organizational Transformation",
+              "credits": 3,
+              "prerequisites": "BUAD 317 (may be taken concurrently)",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 466",
+              "title": "Developing Business Intelligence",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 482",
+              "title": "Project Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "finance",
+          "title": "Finance",
+          "rule": "Choose two; 6 credits. Include BUAD 327 or BUAD 329 or both.",
+          "courses": [
+            {
+              "code": "BUAD 327",
+              "title": "Investments",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 329",
+              "title": "Corporate Valuation & Credit Analysis",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 417",
+              "title": "International Finance",
+              "credits": 3,
+              "prerequisites": "ECON 102 and BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 419",
+              "title": "Valuation",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 420",
+              "title": "Financial History",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 421",
+              "title": "Student Managed Investment Fund",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 422",
+              "title": "Applied Financial Concepts",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 329; Distinguish program application required",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 423",
+              "title": "Corporate Financial Strategy",
+              "credits": 3,
+              "prerequisites": "BUAD 323",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 424",
+              "title": "Derivatives & Risk Management",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 327",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 427",
+              "title": "Advanced Investments",
+              "credits": 3,
+              "prerequisites": "BUAD 323 and BUAD 327",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 428",
+              "title": "Behavioral Economics & Finance",
+              "credits": 3,
+              "prerequisites": "ECON 101 and BUAD 231",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6,
+          "catalogNote": "The table omits BUAD 329, while its footnote permits BUAD 327 or BUAD 329 or both. Included here because the explicit footnote names it."
+        },
+        {
+          "id": "innovation-entrepreneurship",
+          "title": "Innovation & Entrepreneurship",
+          "rule": "BUAD 340 plus two from BUAD 443, 451, 453, 457; 9 credits",
+          "courses": [
+            {
+              "code": "BUAD 340",
+              "title": "Introduction to Innovation & Entrepreneurship",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 443",
+              "title": "Entrepreneurial Ventures",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 451",
+              "title": "Customer Insights for Innovation",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or BUAD 340",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 457",
+              "title": "Creative Problem-Solving",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 9
+        },
+        {
+          "id": "management-leadership",
+          "title": "Management & Organizational Leadership",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 430",
+              "title": "Talent Strategy & Workforce Policy",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 433",
+              "title": "Organizational Reckoning & Change",
+              "credits": "1–3",
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 435",
+              "title": "Teams: Design, Selection, & Development",
+              "credits": 3,
+              "prerequisites": "BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 437",
+              "title": "Change Management & Organizational Transformation",
+              "credits": 3,
+              "prerequisites": "BUAD 317 (may be taken concurrently)",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 438",
+              "title": "Leadership",
+              "credits": 3,
+              "prerequisites": "BUAD 317",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "marketing",
+          "title": "Marketing",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 445",
+              "title": "Product & Brand Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 446",
+              "title": "Consumer Behavior",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or PSYC 201 or PSYC 202",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 447",
+              "title": "Customer Experience Management",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 448",
+              "title": "Marketing Strategy",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 450",
+              "title": "Global Marketing",
+              "credits": 3,
+              "prerequisites": "BUAD 311 and ECON 102",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 451",
+              "title": "Customer Insights for Innovation",
+              "credits": 3,
+              "prerequisites": "BUAD 311 or BUAD 340",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 452",
+              "title": "Marketing Research",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 456",
+              "title": "Advertising & Digital Marketing",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "sustainability",
+          "title": "Sustainability",
+          "rule": "Complete both; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 453",
+              "title": "Sustainability Inspired Innovation & Design",
+              "credits": 3,
+              "prerequisites": "BUAD 311",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "ENSP 101",
+              "title": "Introduction to Environment and Sustainability",
+              "credits": 3,
+              "prerequisites": "None stated",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/ensp/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        },
+        {
+          "id": "business-analytics",
+          "title": "Business Analytics",
+          "rule": "Choose two; 6 credits",
+          "courses": [
+            {
+              "code": "BUAD 460",
+              "title": "Big Data Analytics with Machine Learning",
+              "credits": 3,
+              "prerequisites": "BUAD 467",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 466",
+              "title": "Developing Business Intelligence",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 467",
+              "title": "Predictive Analytics",
+              "credits": 3,
+              "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or KINE 394 or PSYC 301 or SOCL 353",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            },
+            {
+              "code": "BUAD 468",
+              "title": "Prescriptive Analytics",
+              "credits": 3,
+              "prerequisites": "BUAD 350",
+              "corequisites": "",
+              "offering": "Not stated in the 2026–27 catalog",
+              "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+              "requirementSource": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+            }
+          ],
+          "source": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+          "credits": 6
+        }
+      ],
+      "careerFit": {
+        "label": "Editorial match inferred from required curriculum; not a catalog career guarantee.",
+        "examples": [
+          "Supply chain analyst",
+          "Operations analyst",
+          "Process improvement specialist"
+        ]
+      }
+    }
+  ],
+  "courses": {
+    "BUAD 200": {
+      "code": "BUAD 200",
+      "title": "Essentials of Business",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 203": {
+      "code": "BUAD 203",
+      "title": "Principles of Accounting",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 231": {
+      "code": "BUAD 231",
+      "title": "Business Statistics",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "BUAD 231L",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 231L": {
+      "code": "BUAD 231L",
+      "title": "Statistics Laboratory",
+      "credits": 1,
+      "prerequisites": "None stated",
+      "corequisites": "BUAD 231",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 300": {
+      "code": "BUAD 300",
+      "title": "Business Perspectives & Applications",
+      "credits": 1,
+      "prerequisites": "None stated",
+      "corequisites": "BUAD 311, BUAD 323, BUAD 330, BUAD 350",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 311": {
+      "code": "BUAD 311",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "prerequisites": "ECON 101",
+      "corequisites": "BUAD 300, BUAD 323, BUAD 330, BUAD 350",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 317": {
+      "code": "BUAD 317",
+      "title": "Organizational Behavior & Management",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 323": {
+      "code": "BUAD 323",
+      "title": "Financial Management",
+      "credits": 3,
+      "prerequisites": "BUAD 203 and (BUAD 231 or KINE 394 or MATH 351 or ECON 307 or PSYC 301 or SOCL 353)",
+      "corequisites": "BUAD 300, BUAD 311, BUAD 330, BUAD 350",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 330": {
+      "code": "BUAD 330",
+      "title": "Computer Skills for Business",
+      "credits": 1,
+      "prerequisites": "None stated",
+      "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 350",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 350": {
+      "code": "BUAD 350",
+      "title": "Business Analytics",
+      "credits": 3,
+      "prerequisites": "BUAD 231 and (BUAD 231L or BUAD 330); the latter two may be taken concurrently",
+      "corequisites": "BUAD 300, BUAD 311, BUAD 323, BUAD 330",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 357": {
+      "code": "BUAD 357",
+      "title": "Operations Management",
+      "credits": 3,
+      "prerequisites": "BUAD 350",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 414": {
+      "code": "BUAD 414",
+      "title": "Global Strategic Management",
+      "credits": 3,
+      "prerequisites": "BUAD 311 and BUAD 323 and BUAD 350 and BUAD 317",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 460": {
+      "code": "BUAD 460",
+      "title": "Big Data Analytics with Machine Learning",
+      "credits": 3,
+      "prerequisites": "BUAD 467",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 461": {
+      "code": "BUAD 461",
+      "title": "Lean Six Sigma Process Improvement",
+      "credits": 3,
+      "prerequisites": "BUAD 231 and BUAD 23L [catalog text; lab code appears mistyped]",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 462": {
+      "code": "BUAD 462",
+      "title": "Healthcare Informatics",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 463": {
+      "code": "BUAD 463",
+      "title": "Supply Chain Analytics",
+      "credits": 3,
+      "prerequisites": "(BUAD 231 and BUAD 231L) or MATH 106 or MATH 351 or PSYC 301 or ECON 307 or SOCL 353",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 465": {
+      "code": "BUAD 465",
+      "title": "Supply Chain Management",
+      "credits": 3,
+      "prerequisites": "Junior standing",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 466": {
+      "code": "BUAD 466",
+      "title": "Developing Business Intelligence",
+      "credits": 3,
+      "prerequisites": "BUAD 350",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 467": {
+      "code": "BUAD 467",
+      "title": "Predictive Analytics",
+      "credits": 3,
+      "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or KINE 394 or PSYC 301 or SOCL 353",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 468": {
+      "code": "BUAD 468",
+      "title": "Prescriptive Analytics",
+      "credits": 3,
+      "prerequisites": "BUAD 350",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 469": {
+      "code": "BUAD 469",
+      "title": "Advanced Modeling Techniques",
+      "credits": 3,
+      "prerequisites": "(BUAD 231 and BUAD 231L) or ECON 307 or MATH 351 or PSYC 301 or SOCL 353",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 474": {
+      "code": "BUAD 474",
+      "title": "Applied Game Theory",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 482": {
+      "code": "BUAD 482",
+      "title": "Project Management",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 492": {
+      "code": "BUAD 492",
+      "title": "Special Topics",
+      "credits": "0–4",
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 301": {
+      "code": "BUAD 301",
+      "title": "Financial Reporting & Analysis",
+      "credits": 3,
+      "prerequisites": "BUAD 203",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 302": {
+      "code": "BUAD 302",
+      "title": "Advanced Financial Reporting & Analysis",
+      "credits": 3,
+      "prerequisites": "BUAD 301",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 303": {
+      "code": "BUAD 303",
+      "title": "Strategic Cost Management",
+      "credits": 3,
+      "prerequisites": "BUAD 203",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 304": {
+      "code": "BUAD 304",
+      "title": "Not-for-Profit Accounting, Control & Analysis",
+      "credits": 3,
+      "prerequisites": "BUAD 203",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 305": {
+      "code": "BUAD 305",
+      "title": "Accounting Information Systems",
+      "credits": 3,
+      "prerequisites": "None stated; access to a PC required",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 404": {
+      "code": "BUAD 404",
+      "title": "Auditing & Internal Controls",
+      "credits": 3,
+      "prerequisites": "BUAD 301",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 405": {
+      "code": "BUAD 405",
+      "title": "Federal Taxation",
+      "credits": 3,
+      "prerequisites": "BUAD 203",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 431": {
+      "code": "BUAD 431",
+      "title": "Management Consulting",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 437": {
+      "code": "BUAD 437",
+      "title": "Change Management & Organizational Transformation",
+      "credits": 3,
+      "prerequisites": "BUAD 317 (may be taken concurrently)",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 327": {
+      "code": "BUAD 327",
+      "title": "Investments",
+      "credits": 3,
+      "prerequisites": "BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 329": {
+      "code": "BUAD 329",
+      "title": "Corporate Valuation & Credit Analysis",
+      "credits": 3,
+      "prerequisites": "BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 417": {
+      "code": "BUAD 417",
+      "title": "International Finance",
+      "credits": 3,
+      "prerequisites": "ECON 102 and BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 419": {
+      "code": "BUAD 419",
+      "title": "Valuation",
+      "credits": 3,
+      "prerequisites": "BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 420": {
+      "code": "BUAD 420",
+      "title": "Financial History",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 421": {
+      "code": "BUAD 421",
+      "title": "Student Managed Investment Fund",
+      "credits": 3,
+      "prerequisites": "BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 422": {
+      "code": "BUAD 422",
+      "title": "Applied Financial Concepts",
+      "credits": 3,
+      "prerequisites": "BUAD 323 and BUAD 329; Distinguish program application required",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 423": {
+      "code": "BUAD 423",
+      "title": "Corporate Financial Strategy",
+      "credits": 3,
+      "prerequisites": "BUAD 323",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 424": {
+      "code": "BUAD 424",
+      "title": "Derivatives & Risk Management",
+      "credits": 3,
+      "prerequisites": "BUAD 323 and BUAD 327",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 427": {
+      "code": "BUAD 427",
+      "title": "Advanced Investments",
+      "credits": 3,
+      "prerequisites": "BUAD 323 and BUAD 327",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 428": {
+      "code": "BUAD 428",
+      "title": "Behavioral Economics & Finance",
+      "credits": 3,
+      "prerequisites": "ECON 101 and BUAD 231",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 340": {
+      "code": "BUAD 340",
+      "title": "Introduction to Innovation & Entrepreneurship",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 443": {
+      "code": "BUAD 443",
+      "title": "Entrepreneurial Ventures",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 451": {
+      "code": "BUAD 451",
+      "title": "Customer Insights for Innovation",
+      "credits": 3,
+      "prerequisites": "BUAD 311 or BUAD 340",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 453": {
+      "code": "BUAD 453",
+      "title": "Sustainability Inspired Innovation & Design",
+      "credits": 3,
+      "prerequisites": "BUAD 311",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 457": {
+      "code": "BUAD 457",
+      "title": "Creative Problem-Solving",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 430": {
+      "code": "BUAD 430",
+      "title": "Talent Strategy & Workforce Policy",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 433": {
+      "code": "BUAD 433",
+      "title": "Organizational Reckoning & Change",
+      "credits": "1–3",
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 435": {
+      "code": "BUAD 435",
+      "title": "Teams: Design, Selection, & Development",
+      "credits": 3,
+      "prerequisites": "BUAD 317",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 438": {
+      "code": "BUAD 438",
+      "title": "Leadership",
+      "credits": 3,
+      "prerequisites": "BUAD 317",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 445": {
+      "code": "BUAD 445",
+      "title": "Product & Brand Management",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 446": {
+      "code": "BUAD 446",
+      "title": "Consumer Behavior",
+      "credits": 3,
+      "prerequisites": "BUAD 311 or PSYC 201 or PSYC 202",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 447": {
+      "code": "BUAD 447",
+      "title": "Customer Experience Management",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 448": {
+      "code": "BUAD 448",
+      "title": "Marketing Strategy",
+      "credits": 3,
+      "prerequisites": "BUAD 311",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 450": {
+      "code": "BUAD 450",
+      "title": "Global Marketing",
+      "credits": 3,
+      "prerequisites": "BUAD 311 and ECON 102",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 452": {
+      "code": "BUAD 452",
+      "title": "Marketing Research",
+      "credits": 3,
+      "prerequisites": "BUAD 311",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "BUAD 456": {
+      "code": "BUAD 456",
+      "title": "Advertising & Digital Marketing",
+      "credits": 3,
+      "prerequisites": "BUAD 311",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/"
+    },
+    "ENSP 101": {
+      "code": "ENSP 101",
+      "title": "Introduction to Environment and Sustainability",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/ensp/"
+    },
+    "ECON 101": {
+      "code": "ECON 101",
+      "title": "Principles: Microeconomics",
+      "credits": 3,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "ECON 102": {
+      "code": "ECON 102",
+      "title": "Principles: Macroeconomics",
+      "credits": 3,
+      "prerequisites": "ECON 101",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/econ/"
+    },
+    "MATH 108": {
+      "code": "MATH 108",
+      "title": "Brief Calculus with Applications",
+      "credits": 4,
+      "prerequisites": "Algebra proficiency",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 111": {
+      "code": "MATH 111",
+      "title": "Calculus I",
+      "credits": 4,
+      "prerequisites": "Graphing calculator required",
+      "corequisites": "Concurrent calculus lab",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    "MATH 131": {
+      "code": "MATH 131",
+      "title": "Calculus I for Life Sciences",
+      "credits": 4,
+      "prerequisites": "None stated",
+      "corequisites": "",
+      "offering": "Not stated in the 2026–27 catalog",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/"
+    }
+  },
+  "catalogNotes": [
+    {
+      "id": "ds-major-credit-conflict",
+      "severity": "advising",
+      "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+      "text": "Data Science BBA prose says the major requires 12 credits, but its published table lists 9 required credits plus three electives (9 credits) and totals 18. This dataset displays the table and preserves the conflict."
+    },
+    {
+      "id": "ds-accounting-conflict",
+      "severity": "advising",
+      "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+      "text": "Optional Accounting concentration prose says 6 credits, but its table lists BUAD 301 plus three additional courses and totals 12. Supply Chain BBA Accounting concentration table instead says BUAD 301 plus one other and totals 6."
+    },
+    {
+      "id": "core-differences",
+      "severity": "advising",
+      "source": [
+        "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+        "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html"
+      ],
+      "text": "The Data Science BBA core table totals 29 and includes BUAD 330. The Supply Chain BBA core table totals 28 and omits BUAD 330. BUAD course descriptions require BUAD 330 and BUAD 300 as foundation-semester corequisites, while BUAD 300 is absent from both core tables."
+    },
+    {
+      "id": "buad461-lab-typo",
+      "severity": "catalog-text",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+      "text": "BUAD 461 prerequisite text prints BUAD 23L. This appears to mean BUAD 231L, but the dataset preserves the printed code rather than silently correcting it."
+    },
+    {
+      "id": "timing-unavailable",
+      "severity": "information",
+      "source": "https://catalog.wm.edu/undergraduate/courses/buad/",
+      "text": "The current BUAD course catalog does not state recurring fall/spring offering patterns for the relevant courses. Timing remains unknown. First-semester cohort guidance is sequencing information, not a course-offering guarantee."
+    },
+    {
+      "id": "calculus-equivalency",
+      "severity": "information",
+      "source": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+      "text": "Business admission text requires introductory calculus but delegates precise W&M equivalencies to Mason. The catalog course list includes MATH 108, 111 and 131; this dataset does not assert that all three automatically satisfy admission."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://catalog.wm.edu/programs/business-analytics-data-science-bba-business-administration/index.html",
+      "purpose": "Data Science BBA program, admission requirements, core, major, optional concentrations"
+    },
+    {
+      "url": "https://catalog.wm.edu/programs/business-analytics-supply-chain-bba-business-administration/index.html",
+      "purpose": "Supply Chain BBA program, admission requirements, core, major, optional concentrations"
+    },
+    {
+      "url": "https://catalog.wm.edu/undergraduate/courses/buad/",
+      "purpose": "Course titles, credits, prerequisites and corequisites"
+    },
+    {
+      "url": "https://catalog.wm.edu/undergraduate/courses/econ/",
+      "purpose": "ECON 101 and 102"
+    },
+    {
+      "url": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "purpose": "Introductory calculus course descriptions; not Mason admission equivalency authorization"
+    }
+  ]
+}

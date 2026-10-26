@@ -1,0 +1,1376 @@
+{
+  "catalog_edition": "2026–2027",
+  "verified_date": "2026-10-20",
+  "verification": "Live W&M catalog opened and read through Codex in-app browser; program requirements tabs and undergraduate CSCI/MATH course descriptions.",
+  "sources": [
+    {
+      "label": "Computer Science BS requirements",
+      "url": "https://catalog.wm.edu/programs/computer-science-bs-computer-science/index.html#requirementstext"
+    },
+    {
+      "label": "Computer Science minor requirements",
+      "url": "https://catalog.wm.edu/programs/computer-science-minor/index.html#requirementstext"
+    },
+    {
+      "label": "Computer Science undergraduate courses",
+      "url": "https://catalog.wm.edu/undergraduate/courses/csci/"
+    },
+    {
+      "label": "Mathematics undergraduate courses",
+      "url": "https://catalog.wm.edu/undergraduate/courses/math/"
+    },
+    {
+      "label": "Data Science undergraduate courses",
+      "url": "https://catalog.wm.edu/undergraduate/courses/data/"
+    }
+  ],
+  "offering_policy": {
+    "seasons_available": false,
+    "statement": "The current CSCI and relevant MATH catalog course descriptions do not provide recurring fall/spring/summer offering patterns. Show “Not stated in catalog” rather than inferred common semesters.",
+    "registration_caveat": "Catalog descriptions and requirements do not establish a future section schedule."
+  },
+  "programs": [
+    {
+      "id": "cs-minor",
+      "name": "Computer Science, Minor",
+      "degree": "Minor",
+      "source": "https://catalog.wm.edu/programs/computer-science-minor/index.html#requirementstext",
+      "required_credit_hours_display": "18–19",
+      "table_credit_hours": 19,
+      "credit_note": "Catalog states 18–19 depending on credit awarded for CSCI 141; current course listing assigns CSCI 141 four credits.",
+      "requirements": [
+        {
+          "kind": "all_or_substitution",
+          "label": "Core requirements",
+          "credits": 10,
+          "items": [
+            {
+              "course": "CSCI 141",
+              "credits": 4
+            },
+            {
+              "course": "CSCI 241",
+              "credits": 3
+            },
+            {
+              "choose": 1,
+              "courses": [
+                "CSCI 243",
+                "MATH 214"
+              ],
+              "credits": 3,
+              "label": "Logic and discrete foundations"
+            }
+          ]
+        },
+        {
+          "kind": "choose_credits",
+          "label": "Upper-level electives",
+          "credits": 9,
+          "course_rule": "Choose 9 credits from 300–400 level Computer Science courses excluding CSCI 320, CSCI 430, CSCI 498. MATH 413 and MATH 414 may count toward partial fulfillment.",
+          "courses": [
+            "CSCI 301",
+            "CSCI 303",
+            "CSCI 304",
+            "CSCI 312",
+            "CSCI 315",
+            "CSCI 321",
+            "CSCI 324",
+            "CSCI 356",
+            "CSCI 412",
+            "CSCI 415",
+            "CSCI 416",
+            "CSCI 417",
+            "CSCI 420",
+            "CSCI 421",
+            "CSCI 423",
+            "CSCI 424",
+            "CSCI 425",
+            "CSCI 426",
+            "CSCI 427",
+            "CSCI 432",
+            "CSCI 434",
+            "CSCI 435",
+            "CSCI 436",
+            "CSCI 437",
+            "CSCI 437X",
+            "CSCI 440",
+            "CSCI 442",
+            "CSCI 444",
+            "CSCI 445",
+            "CSCI 446",
+            "CSCI 447",
+            "CSCI 449",
+            "CSCI 454",
+            "CSCI 455",
+            "CSCI 464",
+            "CSCI 465",
+            "CSCI 466",
+            "CSCI 490",
+            "CSCI 495",
+            "CSCI 496",
+            "MATH 413",
+            "MATH 414"
+          ]
+        }
+      ],
+      "corequisites": [
+        "CSCI 141L"
+      ],
+      "career_fit_inference": {
+        "text": "Add programming, data structures, and discrete reasoning to another primary field; upper-level electives can deepen a chosen computing interest.",
+        "basis": [
+          "CSCI 141",
+          "CSCI 241",
+          "CSCI 243",
+          "9 upper-level elective credits"
+        ],
+        "status": "Interpretation of curriculum, not a placement or employment claim."
+      }
+    },
+    {
+      "id": "cs-bs",
+      "name": "Computer Science (BS in Computer Science)",
+      "degree": "BS",
+      "source": "https://catalog.wm.edu/programs/computer-science-bs-computer-science/index.html#requirementstext",
+      "required_credit_hours_display": "36–37 major credits; catalog table 48–51 including mathematics proficiency",
+      "table_credit_hours": [
+        48,
+        51
+      ],
+      "catalog_header_credit_hours": [
+        36,
+        37
+      ],
+      "credit_note": "Catalog header states 36–37 major credits depending on CSCI 141 credit. The requirements table totals 48–51 including math proficiency: current 25-credit CS core + 12 elective credits + 11 math credits, and 3 additional probability/statistics proficiency credits for AI/ML. The MATH 109 course description also requires the 1-credit MATH 109L corequisite; that lab is not listed in the CS program table.",
+      "requirements": [
+        {
+          "kind": "all_or_substitution",
+          "label": "Computer science core",
+          "credits": 25,
+          "items": [
+            {
+              "course": "CSCI 141",
+              "credits": 4
+            },
+            {
+              "course": "CSCI 241",
+              "credits": 3
+            },
+            {
+              "choose": 1,
+              "courses": [
+                "CSCI 243",
+                "MATH 214"
+              ],
+              "credits": 3,
+              "label": "Logic and discrete foundations"
+            },
+            {
+              "course": "CSCI 301",
+              "credits": 3
+            },
+            {
+              "course": "CSCI 303",
+              "credits": 3
+            },
+            {
+              "course": "CSCI 304",
+              "credits": 3
+            },
+            {
+              "course": "CSCI 312",
+              "credits": 3
+            },
+            {
+              "course": "CSCI 423",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "kind": "proficiency",
+          "label": "Mathematics proficiency",
+          "credits": 11,
+          "items": [
+            {
+              "choose": 1,
+              "courses": [
+                "MATH 111",
+                "MATH 131"
+              ],
+              "credits": 4
+            },
+            {
+              "choose": 1,
+              "courses": [
+                "MATH 112",
+                "MATH 132"
+              ],
+              "credits": 4
+            },
+            {
+              "course": "MATH 109",
+              "credits": 3
+            }
+          ]
+        },
+        {
+          "kind": "select_concentration",
+          "label": "Concentration requirement",
+          "choose": 1,
+          "options": [
+            "cs-general",
+            "cs-aiml",
+            "cs-cyber"
+          ],
+          "credits": [
+            12,
+            15
+          ]
+        }
+      ],
+      "corequisites": [
+        "CSCI 141L",
+        "MATH 109L"
+      ],
+      "writing_requirement": "Successful completion of the major core requirements.",
+      "catalog_planning_guidance": "By the end of sophomore year, intended majors are encouraged to complete CSCI 141, 241, 243 (or MATH 214), one required 300-level CS course, and the required calculus and linear algebra proficiencies.",
+      "residency_rules": [
+        "At least half of the minimum required number of CS major courses must be taken at W&M.",
+        "At most two 300/400-level courses taken elsewhere may count toward the CS major."
+      ],
+      "concentrations": [
+        {
+          "id": "cs-general",
+          "name": "General",
+          "classification": "official concentration choice; prose calls it a track",
+          "credits": 12,
+          "requirements": [
+            {
+              "kind": "choose_credits",
+              "credits": 12,
+              "course_rule": "Any 300–400 level CSCI course except CSCI 320, CSCI 430, and CSCI 498; MATH 413 and MATH 414 also permitted.",
+              "courses": [
+                "CSCI 301",
+                "CSCI 303",
+                "CSCI 304",
+                "CSCI 312",
+                "CSCI 315",
+                "CSCI 321",
+                "CSCI 324",
+                "CSCI 356",
+                "CSCI 412",
+                "CSCI 415",
+                "CSCI 416",
+                "CSCI 417",
+                "CSCI 420",
+                "CSCI 421",
+                "CSCI 423",
+                "CSCI 424",
+                "CSCI 425",
+                "CSCI 426",
+                "CSCI 427",
+                "CSCI 432",
+                "CSCI 434",
+                "CSCI 435",
+                "CSCI 436",
+                "CSCI 437",
+                "CSCI 437X",
+                "CSCI 440",
+                "CSCI 442",
+                "CSCI 444",
+                "CSCI 445",
+                "CSCI 446",
+                "CSCI 447",
+                "CSCI 449",
+                "CSCI 454",
+                "CSCI 455",
+                "CSCI 464",
+                "CSCI 465",
+                "CSCI 466",
+                "CSCI 490",
+                "CSCI 495",
+                "CSCI 496",
+                "MATH 413",
+                "MATH 414"
+              ]
+            }
+          ],
+          "curriculum_focus": "Broad exploration across computer science.",
+          "career_fit_inference": {
+            "text": "A flexible foundation for software development and exploration across computing fields; select electives to match a particular interest.",
+            "basis": [
+              "CSCI 301",
+              "CSCI 303",
+              "CSCI 304",
+              "CSCI 312",
+              "CSCI 423"
+            ],
+            "status": "Interpretation of curriculum, not a placement or employment claim."
+          },
+          "source": "https://catalog.wm.edu/programs/computer-science-bs-computer-science/index.html#requirementstext"
+        },
+        {
+          "id": "cs-aiml",
+          "name": "Artificial Intelligence/Machine Learning",
+          "classification": "official concentration choice; prose calls it a track",
+          "credits": 15,
+          "requirements": [
+            {
+              "kind": "proficiency",
+              "choose": 1,
+              "courses": [
+                "MATH 351",
+                "MATH 451"
+              ],
+              "credits": 3
+            },
+            {
+              "kind": "choose_credits",
+              "credits": 12,
+              "courses": [
+                "CSCI 356",
+                "CSCI 416",
+                "CSCI 421",
+                "CSCI 436",
+                "CSCI 446",
+                "CSCI 455",
+                "CSCI 466",
+                "DATA 441"
+              ],
+              "conditional_courses": [
+                {
+                  "course": "CSCI 420",
+                  "condition": "Undergraduate Director of Computer Science determines sufficient material related to concentration."
+                }
+              ]
+            }
+          ],
+          "curriculum_focus": "Artificial intelligence, machine learning, and big data.",
+          "career_fit_inference": {
+            "text": "Explore machine learning engineering, AI software, or data-focused computing when you want the computer science foundation and a choice of AI/ML electives.",
+            "basis": [
+              "CSCI 416",
+              "CSCI 436",
+              "CSCI 446",
+              "CSCI 455",
+              "CSCI 466"
+            ],
+            "status": "Interpretation of curriculum, not a placement or employment claim."
+          },
+          "source": "https://catalog.wm.edu/programs/computer-science-bs-computer-science/index.html#requirementstext"
+        },
+        {
+          "id": "cs-cyber",
+          "name": "Cybersecurity",
+          "classification": "official concentration choice; prose calls it a track",
+          "credits": 12,
+          "requirements": [
+            {
+              "kind": "all",
+              "courses": [
+                "CSCI 444",
+                "CSCI 454",
+                "CSCI 464"
+              ],
+              "credits": 9
+            },
+            {
+              "kind": "choose",
+              "count": 1,
+              "credits": 3,
+              "courses": [
+                "CSCI 324",
+                "CSCI 415",
+                "CSCI 434",
+                "CSCI 445"
+              ],
+              "conditional_courses": [
+                {
+                  "course": "CSCI 420",
+                  "condition": "Undergraduate Director of Computer Science determines sufficient material related to concentration."
+                }
+              ]
+            }
+          ],
+          "curriculum_focus": "Security, systems, and networks.",
+          "career_fit_inference": {
+            "text": "Explore security analysis, secure systems, and vulnerability testing through operating systems, network security, and hands-on penetration testing.",
+            "basis": [
+              "CSCI 444",
+              "CSCI 454",
+              "CSCI 464"
+            ],
+            "status": "Interpretation of curriculum, not a placement or employment claim."
+          },
+          "source": "https://catalog.wm.edu/programs/computer-science-bs-computer-science/index.html#requirementstext"
+        }
+      ]
+    }
+  ],
+  "catalog_ambiguities": [
+    "Credit scope differs by catalog display: header 36–37 for major; table 48–51 including mathematics proficiency. Explain the scopes explicitly instead of presenting either as total degree credits.",
+    "MATH 109 requires MATH 109L in the course description; the CS program table lists only MATH 109.",
+    "Both CSCI 315 and CSCI 415 (Systems Programming), CSCI 321 and CSCI 421 (Database Systems), and CSCI 412 and CSCI 432 (Web Programming) appear as separate current catalog entries. No course-number equivalence is assumed.",
+    "Catalog rules broadly allow 300–400 CSCI electives, but sections, prerequisites, research permissions, Honors admission, and duplicate credit need advising review."
+  ],
+  "courses": [
+    {
+      "code": "CSCI 100",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Critical Questions in Computer Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20100",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 120",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Elementary Topics CSCI",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20120",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 121L",
+      "corequisites": "CSCI 121",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Elementary Topics Lab",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20121L",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 131",
+      "corequisites": "CSCI 131L",
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Concepts in Computer Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20131",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 131L",
+      "corequisites": "CSCI 131",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Concepts in CSCI Lab",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20131L",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 135",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Web Design",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20135",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 141",
+      "corequisites": "CSCI 141L",
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Modern Programming Fundamentals",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20141",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 141L",
+      "corequisites": "CSCI 141",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Modern Prog. Fundamentals Lab",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20141L",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 146",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 140 (may be taken concurrently) or CSCI 141 (may be taken concurrently) or DATA 141 (may be taken concurrently)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Reasoning Under Uncertainty",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20146",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 150",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "First-Year Seminar",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20150",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 220",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Intermediate Topics",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20220",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 224",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 141",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Linux for Ethical Hackers",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20224",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 232",
+      "corequisites": null,
+      "credits": "1",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(CSCI 140 (may be taken concurrently) or CSCI 141 (may be taken concurrently) or DATA 140 (may be taken concurrently))",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Competitive Programming",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20232",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 241",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 141 or DATA 141 or CSCI 140 or DATA 140",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Data Structures",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20241",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 243",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(CSCI 141 (may be taken concurrently) or CSCI 142 (may be taken concurrently) or CSCI 140 (may be taken concurrently) or DATA 140 (may be taken concurrently) or DATA 141 (may be taken concurrently))",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Logic and Discrete Structures",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20243",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 301",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Software Development",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20301",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 303",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241 and (CSCI 243 or MATH 214)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Algorithms",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20303",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 304",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241 (may be taken concurrently)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computer Organization",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20304",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 312",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241 and (CSCI 243 or MATH 214)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Principles of Programming Languages",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20312",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 315",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 304",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Systems Programming",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20315",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 320",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 or CSCI 303 or CSCI 304 or CSCI 312",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Directed Study",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20320",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 321",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241 and (CSCI 243 or MATH 214)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Database Systems",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20321",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 324",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Cybersecurity Fundamentals",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20324",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 356",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 141",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Large Language Models",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20356",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 412",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(CSCI 301 or CSCI 312) and CSCI 321",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Web Programming",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20412",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 415",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and CSCI 304",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Systems Programming",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20415",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 416",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and (MATH 112 or MATH 132) and (MATH 211 or MATH 109)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Fundamentals of Artificial Intelligence/Machine Learning",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20416",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 417",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 141",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computer Animation",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20417",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 420",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Special Topics in Computer Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20420",
+      "prerequisite_status": "section dependent",
+      "notes": [
+        "Full description and prerequisites appear in registration bulletins.",
+        "Only approved relevant topics may fulfill specialized concentration electives."
+      ]
+    },
+    {
+      "code": "CSCI 421",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Database Systems",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20421",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 423",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Finite Automata and Theory of Computation",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20423",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 423W",
+      "corequisites": null,
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Finite Automata Writing",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20423W",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 424",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 304 and (CSCI 301 or CSCI 303)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computer Architecture",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20424",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 425",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 303 and CSCI 304 and CSCI 312",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Entrepreneurship in Computer Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20425",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 426",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and MATH 112 and CSCI 301",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Simulation",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20426",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 427",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 303 and (MATH 211 or MATH 109)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Fundamentals of Computer Graphics",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20427",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 430",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 241",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computer Languages",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20430",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 432",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Web Programming",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20432",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 434",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 415 or (CSCI 301 and CSCI 303 and CSCI 304)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Network Systems and Design",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20434",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 435",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 312",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Software Engineering",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20435",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 436",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and (MATH 211 or MATH 109) and (MATH 212 or MATH 213)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Data Mining",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20436",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 437",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 303",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Introduction to Game Design and Game Development",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20437",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 437X",
+      "corequisites": "CSCI 437",
+      "credits": "1",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Team Management for Game Design and Game Development",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20437X",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 440",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computing Profession/Society",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20440",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 440W",
+      "corequisites": "CSCI 440",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computing Profession/Society",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20440W",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 442",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 304 and CSCI 312 and CSCI 301",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Compiler Construction",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20442",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 444",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 303 and CSCI 304",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Principles of Operating Systems",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20444",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 445",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Mobile Application Security",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20445",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 446",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 106 or MATH 351 or MATH 451) and (MATH 211 or MATH 109) and (MATH 212 or MATH 213)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Neural Networks for Machine Learning",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20446",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 447",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Human-Computer Interaction",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20447",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 449",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and (MATH 211 or MATH 109)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Scientific Computing",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20449",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 454",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 and CSCI 304",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Computer and Network Security",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20454",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 455",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 301 and CSCI 416",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Generative Artificial Intelligence for Software Development",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20455",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 464",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 224 or CSCI 304",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Penetration Testing",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20464",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 465",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "CSCI 303 or CSCI 312",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Edge Computing",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20465",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 466",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 106 or MATH 351 or MATH 451) and (MATH 109 or MATH 211 )",
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Applied Topology Data Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20466",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "CSCI 490",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Research in Computer Science",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20490",
+      "prerequisite_status": "none stated in catalog",
+      "notes": [
+        "Permission of Undergraduate Director and written report required."
+      ]
+    },
+    {
+      "code": "CSCI 495",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Honors",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20495",
+      "prerequisite_status": "none stated in catalog",
+      "notes": [
+        "Restricted to students admitted to Honors study; senior-year research and thesis sequence."
+      ]
+    },
+    {
+      "code": "CSCI 495W",
+      "corequisites": "CSCI 495",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Honors",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20495W",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 496",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Honors",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20496",
+      "prerequisite_status": "none stated in catalog",
+      "notes": [
+        "Restricted to students admitted to Honors study; senior-year research and thesis sequence."
+      ]
+    },
+    {
+      "code": "CSCI 496W",
+      "corequisites": "CSCI 496",
+      "credits": "0",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Honors",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20496W",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "CSCI 498",
+      "corequisites": null,
+      "credits": "1-3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/csci/",
+      "title": "Internship",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=CSCI%20498",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "MATH 106",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Elementary Probability and Statistics",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20106",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "MATH 109",
+      "corequisites": "MATH 109L",
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Linear Algebra",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20109",
+      "prerequisite_status": "none stated in catalog",
+      "notes": [
+        "MATH 109L is a required 1-credit corequisite in the course description, although the CS BS program table lists only MATH 109."
+      ]
+    },
+    {
+      "code": "MATH 109L",
+      "corequisites": null,
+      "credits": "1",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "MATH 109 (may be taken concurrently) or (MATH 211 )",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Computational Linear Algebra Lab",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20109L",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 111",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Calculus I",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20111",
+      "prerequisite_status": "none stated in catalog",
+      "notes": [
+        "Course description requires concurrent enrollment in Math 111 calculus lab; no separate numbered lab appears in this subject listing."
+      ]
+    },
+    {
+      "code": "MATH 112",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 111 or MATH 131)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Calculus II",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20112",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 131",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Calculus I for Life Sciences",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20131",
+      "prerequisite_status": "none stated in catalog"
+    },
+    {
+      "code": "MATH 132",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "MATH 111 or MATH 131",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Calculus II for Life Sciences",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20132",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 210",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "MATH 112",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Linearity",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20210",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 212",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 112 or MATH 113 or MATH 132 )",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Introduction to Multivariable Calculus",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20212",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 213",
+      "corequisites": null,
+      "credits": "4",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 112 or MATH 132 or MATH 113 )",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Multivariable Calculus for Science and Mathematics",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20213",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 214",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 112 or MATH 132 )",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Foundations of Math",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20214",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 351",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "MATH 112 or MATH 132",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Probability and Statistics for Scientists",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20351",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 413",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 212 or MATH 213) and (CSCI 141 or CSCI 140 or DATA 141 or DATA 140) and (MATH 214 ) and (MATH 211 or MATH 109 or MATH 210)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Introduction to Numerical Analysis I",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20413",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 414",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 212 or MATH 213) and (CSCI 141 or CSCI 140) and (MATH 214 ) and (MATH 211 or MATH 109 or MATH 210)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Introduction to Numerical Analysis II",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20414",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "MATH 451",
+      "corequisites": null,
+      "credits": "3",
+      "offering_note": "Not stated in the 2026–2027 catalog course description.",
+      "offering_seasons": null,
+      "prerequisites": "(MATH 212 or MATH 213 ) and (MATH 214 ) and (MATH 211 or MATH 109 or MATH 210)",
+      "source": "https://catalog.wm.edu/undergraduate/courses/math/",
+      "title": "Probability",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=MATH%20451",
+      "prerequisite_status": "stated"
+    },
+    {
+      "code": "DATA 441",
+      "title": "Advanced Applications of AI",
+      "credits": "3",
+      "prerequisites": "(DATA 301 or DATA 310) and (MATH 211 or MATH 109)",
+      "prerequisite_status": "stated",
+      "corequisites": null,
+      "source": "https://catalog.wm.edu/undergraduate/courses/data/",
+      "course_catalog_url": "https://catalog.wm.edu/search/?P=DATA%20441",
+      "offering_seasons": null,
+      "offering_note": "Not stated in the 2026–2027 catalog course description."
+    }
+  ],
+  "elective_inventory_note": "The course rule is authoritative; the enumerated inventory reflects current catalog-listed positive-credit courses. A course already counted in the core should not be represented as extra progress toward additional elective credits. Zero-credit writing companion courses remain in the complete course database but do not contribute elective credits."
+}
